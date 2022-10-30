@@ -18,7 +18,7 @@ int Fighter::getFtKind() {
     return _getFtKind_Fighter(this);
 }
 
-void Fighter::setMetal(double health, bool setEffect, int unk3) {
+void Fighter::setMetal(float health, bool setEffect, int unk3) {
     setMetal_Fighter(this, health, setEffect, unk3);
 }
 
@@ -34,7 +34,7 @@ void Fighter::setSuperStar(bool setEffect, unsigned int unk2, int unk3) {
     setSuperStar_Fighter(this, setEffect, unk2, unk3);
 }
 
-void Fighter::setFlower(double rate, bool setEffect, int unk3, double size, int unk5) {
+void Fighter::setFlower(float rate, bool setEffect, int unk3, float size, int unk5) {
     setFlower_Fighter(this, rate, setEffect, unk3, size, unk5);
 }
 
